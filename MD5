@@ -1,0 +1,16 @@
+492cb6e1b91a7b7ba652e0c0a3d4c266 *DESCRIPTION
+7aedaa4346c8feb06ecf52af74811013 *LICENSE
+fccf177a6b7d1d8df99b930a3680e5e4 *NAMESPACE
+03326a836b78dffe2f27ef3c2183b245 *NEWS.md
+c67ee2dc5e04747bd8d58c1f99844fc9 *R/lisa.R
+223056377369dafa80064d688de49800 *R/utils.R
+5bfb41437c6f0500fb5a38226b76fdc1 *README.md
+f3edc171ebf6712b8b8d8003159375fe *data/artwork.rda
+e7ababf1e018cd431b9b2d85e83a9754 *data/lisa.rda
+3c29c4b5344ee39f39eed4cf177bfd80 *man/artwork.Rd
+fea9a0f817048960f5484a0684274ab3 *man/figures/README-example1-1.png
+507adfe5918113fcb556983ea68dd7e5 *man/figures/README-example2-1.png
+490237765375bb3772981df9918098e9 *man/figures/README-example2-2.png
+1b819145757afd1850571bfd87dd1be7 *man/figures/README-example2-3.png
+269a85c724f139492f6150f6a1a12daf *man/lisa.Rd
+12e1a9ad60e813d83d3ba8a612b1eef9 *man/lisa_palette.Rd
