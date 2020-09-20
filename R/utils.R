@@ -28,6 +28,14 @@ plot.lisa_palette <- function(x, ...) {
 
 #' @export
 print.lisa_palette <- function(x, ...) {
-  if (is.lisa_palette(x)) attributes(x) <- NULL
-  print.default(x, ...)
+  if (is.lisa_palette(x)) {
+    if (length(x) > 5) {
+      cols <- paste(paste(x[1:5], collapse = " "),"... and", length(x) - 5, "more")
+    } else {
+      cols <- x
+    }
+    cat("* Work:", attr(x, "work"), "\n")
+    cat("* Author:", attr(x, "name"), "\n")
+    cat("* Colors:", cols)
+  }
 }

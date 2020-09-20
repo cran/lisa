@@ -1,4 +1,9 @@
-# lisa 0.1.0.9000
+# lisa 0.1.2
+
+* New print method of palettes.
+* Updated `artwork` dataset to include colors and url information.
+
+# lisa 0.1.1
 
 * `lisa_palette` returns the "work" attribute.
 * `lisa_palette` preserves character class.

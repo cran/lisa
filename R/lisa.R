@@ -8,16 +8,21 @@
 
 #' Artist, palettes, and artwork names
 #'
-#' A dataset containing the name of the artist, palette, and artwork.
+#' A table containing various information about each palette.
 #'
 #' @format A data frame with 128 rows and 3 variables:
 #' \describe{
-#'   \item{artist}{name of artist}
-#'   \item{palette}{name of the palette}
+#'   \item{author}{name of artist}
 #'   \item{work}{name of artwork}
+#'   \item{palette}{name of the palette}
+#'   \item{colors}{hex color codes}
+#'   \item{url}{url for artwork info}
 #' }
 #'
+#' @return a [tibble][tibble::tibble-package]
+#'
 #' Source: \url{http://colorlisa.com/}
+#' @md
 "artwork"
 
 #' Call or modify lisa palettes
